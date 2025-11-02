@@ -1,6 +1,6 @@
 // --- API Configuration ---
 export const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "https://blogbackc.onrender.com/api/";
+  import.meta.env.VITE_API_BASE_URL || "https://blogbackc-ch.onrender.com/api/";
 
 export const API_DOMAIN = API_BASE_URL.replace("/api/", ""); // For media/image URLs
 

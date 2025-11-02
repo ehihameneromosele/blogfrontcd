@@ -3,7 +3,7 @@ import axios from "axios";
 
 // ✅ CORRECT: Base URL points to your Django API root
 const api = axios.create({
-  baseURL: 'https://blogbackc.onrender.com/api/', // This is correct
+  baseURL: 'https://blogbackc-ch.onrender.com/api/', // This is correct
   headers: { "Content-Type": "application/json" },
   withCredentials: true,
 });
@@ -35,7 +35,7 @@ async function refreshToken() {
 
   try {
     const { data } = await axios.post(
-      'https://blogbackc.onrender.com/api/token/refresh/', // ✅ Correct URL
+      'https://blogbackc-ch.onrender.com/api/token/refresh/', // ✅ Correct URL
       { refresh }
     );
     localStorage.setItem("access_token", data.access);
