@@ -7,7 +7,8 @@ import {
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// newly reviewed
+// newly reviewed 
+// lighthearted-crisp-2c0b49.netlify.app
 
 import { AuthProvider } from "./context/AuthContext";
 import Layout from "./components/Common/Layout";
